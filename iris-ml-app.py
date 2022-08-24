@@ -53,3 +53,20 @@ st.write(iris.target_names[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+iris = pd.read_csv("iris.data")
+
+@st.cache
+def convert_df(iris):
+   return iris.to_csv().encode('utf-8')
+
+
+csv = convert_df(iris)
+
+st.download_button(
+   "Download Iris Data",
+   csv,
+   "file.csv",
+   "text/csv",
+   key='download-csv'
+)
