@@ -70,3 +70,5 @@ st.download_button(
    "text/csv",
    key='download-csv'
 )
+
+st.write("*This is part of AirAsia Academy Data Analytics Course")
