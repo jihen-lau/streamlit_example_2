@@ -8,8 +8,7 @@ st.write("""
 # Ji Hen First Stremlit App
 # Simple Iris Flower Prediction App
 
-This app predicts the **Iris flower** type! \ 
-(This is part of AirAsia Academy Data Analytics Course)
+This app predicts the **Iris flower** type!
 """)
 
 all_iris = Image.open("Iris Photo.png")
