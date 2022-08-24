@@ -10,6 +10,9 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
+from PIL import Image
+st.image("https://www.pexels.com/photo/landscape-nature-sky-man-6620743/")
+
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
