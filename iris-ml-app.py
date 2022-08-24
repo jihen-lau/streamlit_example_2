@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
+from PIL import Image
 
 st.write("""
 # Ji Hen First Stremlit App
@@ -10,7 +11,6 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-from PIL import Image
 img = Image.open("Iris Photo.png")
 
 st.sidebar.header('User Input Parameters')
