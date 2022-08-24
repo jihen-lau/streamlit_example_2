@@ -11,7 +11,8 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-img = Image.open("Iris Photo.png")
+all_iris = Image.open("Iris Photo.png")
+st.image(all_iris)
 
 st.sidebar.header('User Input Parameters')
 
