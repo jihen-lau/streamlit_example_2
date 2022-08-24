@@ -3,9 +3,6 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
-from PIL import Image
-image = Image.open('Iris Photo.png')
-
 st.write("""
 # Ji Hen First Stremlit App
 # Simple Iris Flower Prediction App
