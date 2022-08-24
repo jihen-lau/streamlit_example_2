@@ -11,7 +11,7 @@ This app predicts the **Iris flower** type!
 """)
 
 from PIL import Image
-st.image("https://azkarohbiya.medium.com/iris-species-classification-using-k-neighbors-ae61cd145797/")
+st.image("https://ibb.co/4W1CJwr")
 
 st.sidebar.header('User Input Parameters')
 
