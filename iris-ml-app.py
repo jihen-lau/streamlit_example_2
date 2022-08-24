@@ -12,7 +12,8 @@ This app predicts the **Iris flower** type!
 """)
 
 all_iris = Image.open("Iris Photo.png")
-st.image(all_iris)
+st.image(all_iris, 
+         caption='3 Iris Species <source: https://morioh.com/p/eafb28ccf4e3>')
 
 st.sidebar.header('User Input Parameters')
 
