@@ -66,7 +66,7 @@ csv = convert_df(iris)
 st.download_button(
    "Download Iris Data",
    csv,
-   "file.csv",
+   "iris_data.csv",
    "text/csv",
    key='download-csv'
 )
